@@ -1,0 +1,273 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 102198370926,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is on Home page",
+            "match": {
+              "location": "TypesOfsearch.user_is_on_Home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 9,
+        "name": "Test Generic Search in the site",
+        "description": "",
+        "id": ";test-generic-search-in-the-site",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6436537464,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user search with data as follows:",
+            "match": {
+              "location": "TypesOfsearch.user_search_with_data_as_follows(TypesOfsearch$SearchDetails\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "value"
+                ],
+                "line": 11
+              },
+              {
+                "cells": [
+                  "Tungsten"
+                ],
+                "line": 12
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9984623378,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user click on search button",
+            "match": {
+              "location": "TypesOfsearch.user_click_on_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2833725130,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user should be in result page",
+            "match": {
+              "location": "TypesOfsearch.user_should_be_in_result_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 8,
+            "name": "@Generic-Search"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 8670398880,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is on Home page",
+            "match": {
+              "location": "TypesOfsearch.user_is_on_Home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 17,
+        "name": "Test Element Search in the site",
+        "description": "",
+        "id": ";test-element-search-in-the-site",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11924486106,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user search with data and criteria as follows:",
+            "match": {
+              "location": "ElementSearch.user_search_with_data_and_criteria_as_follows(ElementSearch$ElementCriteria\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "value"
+                ],
+                "line": 19
+              },
+              {
+                "cells": [
+                  "Tungsten"
+                ],
+                "line": 20
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7013927242,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user click on search button",
+            "match": {
+              "location": "TypesOfsearch.user_click_on_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1966469229,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user should be in result page",
+            "match": {
+              "location": "TypesOfsearch.user_should_be_in_result_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 16,
+            "name": "@Element-Search"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6600484528,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is on Home page",
+            "match": {
+              "location": "TypesOfsearch.user_is_on_Home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 25,
+        "name": "Test Structure Search in the site",
+        "description": "",
+        "id": ";test-structure-search-in-the-site",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9872473179,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "user search with criteria and criteria as follows:",
+            "match": {
+              "location": "StructureSearch.user_search_with_criteria_and_criteria_as_follows(StructureSearch$StructureCriteria\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "value"
+                ],
+                "line": 27
+              },
+              {
+                "cells": [
+                  "Tungsten"
+                ],
+                "line": 28
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 313676521,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "user click on search button",
+            "match": {
+              "location": "TypesOfsearch.user_click_on_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4518873952,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "user should be in result page",
+            "match": {
+              "location": "TypesOfsearch.user_should_be_in_result_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 24,
+            "name": "@Structure-Search"
+          }
+        ]
+      }
+    ],
+    "name": "",
+    "description": "As a user\r\nI want to test search functionality in the system",
+    "id": "",
+    "keyword": "Feature",
+    "uri": "TypeOfSearch.feature"
+  }
+]
